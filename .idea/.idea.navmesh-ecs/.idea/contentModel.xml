@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\davo8\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\davo8\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_navmesh-ecs.1521976004.00" t="ExcludeRecursive" />
+    <e p="C:\Users\davo8\OneDrive\Desktop\job\navmesh-ecs" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="NavMeshComponents" t="Include">
+          <e p="Editor" t="Include">
+            <e p="NavMeshAssetManager.cs" t="Include" />
+            <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+            <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+            <e p="NavMeshLinkEditor.cs" t="Include" />
+            <e p="NavMeshModifierEditor.cs" t="Include" />
+            <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+            <e p="NavMeshSurfaceEditor.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="NavMeshComponents.asmdef" t="Include" />
+            <e p="NavMeshLink.cs" t="Include" />
+            <e p="NavMeshModifier.cs" t="Include" />
+            <e p="NavMeshModifierVolume.cs" t="Include" />
+            <e p="NavMeshSurface.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Behaviour" t="Include">
+              <e p="CreateEntityAgents.cs" t="Include" />
+              <e p="CreateEntityArchetype.cs" t="Include" />
+              <e p="RTS_Camera.cs" t="Include" />
+            </e>
+            <e p="Components" t="Include">
+              <e p="AgentPathInfoComponent.cs" t="Include" />
+            </e>
+            <e p="Settings.cs" t="Include" />
+            <e p="Systems" t="Include">
+              <e p="AgentManagerSystem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="NavJob" t="Include">
+            <e p="Components" t="Include">
+              <e p="NavAgentComponent.cs" t="Include" />
+              <e p="SyncPositionFromNavAgentComponent.cs" t="Include" />
+              <e p="SyncPositionToNavAgentComponent.cs" t="Include" />
+              <e p="SyncRotationFromNavAgentComponent.cs" t="Include" />
+              <e p="SyncRotationToNavAgentComponent.cs" t="Include" />
+            </e>
+            <e p="Systems" t="Include">
+              <e p="NavAgentSyncSystemFromNav.cs" t="Include" />
+              <e p="NavAgentSyncSystemToNav.cs" t="Include" />
+              <e p="NavAgentSystem.cs" t="Include" />
+              <e p="NavMeshQuerySystem.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="navmesh-ecs.sln" t="IncludeFlat" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
