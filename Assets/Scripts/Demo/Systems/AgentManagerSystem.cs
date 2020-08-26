@@ -28,7 +28,6 @@ namespace Demo.Systems
             base.OnDestroy();
             eventQuery.Dispose();
         }
-        
         protected override JobHandle OnUpdate(JobHandle inputDeps)
         {
             NativeQueue<PipePassedEvent>.ParallelWriter parallelWriter = eventQuery.AsParallelWriter();
