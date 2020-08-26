@@ -15,7 +15,6 @@ namespace Demo.Systems
     public class AgentManagerSystem:JobComponentSystem
     {
         private NativeQueue<PipePassedEvent> eventQuery;
-        private NavAgentSystem navAgentSystem;
 
         protected override void OnCreate()
         {
