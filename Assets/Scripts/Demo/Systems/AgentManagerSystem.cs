@@ -5,7 +5,6 @@ using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
-using Unity.Rendering;
 using Unity.Transforms;
 using UnityEngine;
 
@@ -13,7 +12,7 @@ namespace Demo.Systems
 {
     
     //[DisableAutoCreation]
-    public class AgentManagerSystem:SystemBase
+    public class AgentManagerSystem:JobComponentSystem
     {
         private NativeQueue<PipePassedEvent> eventQuery;
         private NavAgentSystem navAgentSystem;
@@ -21,19 +20,22 @@ namespace Demo.Systems
         protected override void OnCreate()
         {
             eventQuery     = new NativeQueue<PipePassedEvent>(Allocator.TempJob);
-            navAgentSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystem<NavAgentSystem>();
         }
 
         
-       
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            eventQuery.Dispose();
+        }
         
-        protected override void OnUpdate()
+        protected override JobHandle OnUpdate(JobHandle inputDeps)
         {
             NativeQueue<PipePassedEvent>.ParallelWriter parallelWriter = eventQuery.AsParallelWriter();
+            NavAgentSystem                              navAgentSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystem<NavAgentSystem>();
 
-            Entities.WithBurst().WithAll<NavAgentComponent>().ForEach((Entity e, ref AgentPathInfoComponent agentPathInfoComponentr, ref NavAgentComponent navAgent) =>
+            JobHandle jobHandle = Entities.WithBurst().WithAll<NavAgentComponent>().ForEach((Entity e, ref AgentPathInfoComponent agentPathInfoComponentr, ref NavAgentComponent navAgent) =>
             {
-
                 if (!agentPathInfoComponentr.goes && navAgent.status == AgentStatus.Idle){
                     navAgent.status              = AgentStatus.PathQueued;
                     agentPathInfoComponentr.goes = !agentPathInfoComponentr.goes;
@@ -45,13 +47,13 @@ namespace Demo.Systems
                         navAgent    = navAgent,
                     });
                 }
-            }).Schedule();
+            }).Schedule(inputDeps);
 
-            
             while (eventQuery.TryDequeue(out PipePassedEvent pipePassedEvent)){
                 navAgentSystem.SetDestination(pipePassedEvent.Entity, pipePassedEvent.navAgent, pipePassedEvent.destination);
             }
-            
+
+            return jobHandle;
         }
      
         
@@ -109,6 +111,7 @@ namespace Demo.Systems
             );
             EntityManager.SetComponentData(entity, navAgent);
         }
+
 
       
     }

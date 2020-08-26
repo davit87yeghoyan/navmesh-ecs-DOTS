@@ -20,102 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c17094bd-0f1b-41d9-b6ff-d8a16e54c95c" name="Default Changelist" comment="ECS async navmesh">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs.dir/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/AgentA.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/AgentA.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Cube.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Cube.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Map.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Map.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshLink.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshLink.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshModifier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshModifier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshSurface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshSurface.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Agent.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Agent.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/5808849a557342aba0e643e3a22cdd94.sceneWithBuildSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/5808849a557342aba0e643e3a22cdd94.sceneWithBuildSettings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/dadde94e4b5195ec50de81f92ca5a690.sceneWithBuildSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/dadde94e4b5195ec50de81f92ca5a690.sceneWithBuildSettings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Nav.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Nav.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleSceneSettings.lighting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleSceneSettings.lighting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Behaviour.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Behaviour/CreateEntityAgents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Behaviour/CreateEntityAgents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Behaviour/CreateEntityArchetype.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Behaviour/CreateEntityArchetype.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Behaviour/RTS_Camera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Behaviour/RTS_Camera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Components/AgentPathInfoComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Components/AgentPathInfoComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Settings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Settings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Systems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Systems/AgentManagerSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Systems/AgentManagerSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/NavAgentComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/NavAgentComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/SyncPositionFromNavAgentComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/SyncPositionFromNavAgentComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/SyncPositionToNavAgentComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/SyncPositionToNavAgentComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/SyncRotationFromNavAgentComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/SyncRotationFromNavAgentComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/SyncRotationToNavAgentComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Components/SyncRotationToNavAgentComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSyncSystemFromNav.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSyncSystemFromNav.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSyncSystemToNav.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSyncSystemToNav.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavMeshQuerySystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavMeshQuerySystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.navmesh-ecs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Demo/Behaviour/RTS_Camera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Behaviour/RTS_Camera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Demo/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Demo/Systems/AgentManagerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/Systems/AgentManagerSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSyncSystemFromNav.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSyncSystemFromNav.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSyncSystemToNav.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSyncSystemToNav.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NavJob/Systems/NavAgentSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +40,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/0d/f0ebab32/Allocator.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Demo/Settings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Demo/Systems/AgentManagerSystem.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1gZKHzzYQPYMbmpWbsXGxSoTLcS" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -133,9 +59,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -147,10 +80,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9396">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9396" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -165,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598316590743</updated>
-      <workItem from="1598316598713" duration="325000" />
+      <workItem from="1598316598713" duration="673000" />
+      <workItem from="1598429889273" duration="2143000" />
     </task>
     <task id="LOCAL-00001" summary="ECS async navmesh">
       <created>1598316880145</created>
@@ -174,14 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598316880145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ECS async navmesh">
+      <created>1598316930556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598316930556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -192,10 +133,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="ECS async navmesh" />
     <option name="LAST_COMMIT_MESSAGE" value="ECS async navmesh" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1598431846043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598431846043" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1598431846042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598431846042" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1598431846042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598431846042" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1598431846043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598431846043" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1598431849703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598431849703" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1598431849703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598431849703" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1598431849703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598431849703" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1598431849703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598431849703" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598317128814">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598317128814" />
   </component>
 </project>
