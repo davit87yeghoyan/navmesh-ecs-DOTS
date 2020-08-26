@@ -23,8 +23,5 @@ namespace Demo.Behaviour
             );
             EntityManager.CreateEntity(entityArchetype);
         }
-
-    
-   
     }
 }
