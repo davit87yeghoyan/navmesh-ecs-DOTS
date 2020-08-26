@@ -12,7 +12,7 @@ namespace Demo.Systems
 {
     
     //[DisableAutoCreation]
-    public class AgentManagerSystem:JobComponentSystem
+    public class AgentManagerSystem:SystemBase
     {
         private NativeQueue<PipePassedEvent> eventQuery;
 
@@ -26,12 +26,12 @@ namespace Demo.Systems
         {
             eventQuery.Dispose();
         }
-        protected override JobHandle OnUpdate(JobHandle inputDeps)
+        protected override void OnUpdate()
         {
             NativeQueue<PipePassedEvent>.ParallelWriter parallelWriter = eventQuery.AsParallelWriter();
             NavAgentSystem                              navAgentSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystem<NavAgentSystem>();
 
-            JobHandle jobHandle = Entities.WithBurst().WithAll<NavAgentComponent>().ForEach((Entity e, ref AgentPathInfoComponent agentPathInfoComponentr, ref NavAgentComponent navAgent) =>
+           Entities.WithBurst().WithAll<NavAgentComponent>().ForEach((Entity e, ref AgentPathInfoComponent agentPathInfoComponentr, ref NavAgentComponent navAgent) =>
             {
                 if (!agentPathInfoComponentr.goes && navAgent.status == AgentStatus.Idle){
                     navAgent.status              = AgentStatus.PathQueued;
@@ -44,13 +44,11 @@ namespace Demo.Systems
                         navAgent    = navAgent,
                     });
                 }
-            }).Schedule(inputDeps);
+            }).Schedule();
 
             while (eventQuery.TryDequeue(out PipePassedEvent pipePassedEvent)){
                 navAgentSystem.SetDestination(pipePassedEvent.Entity, pipePassedEvent.navAgent, pipePassedEvent.destination);
             }
-
-            return jobHandle;
         }
      
         

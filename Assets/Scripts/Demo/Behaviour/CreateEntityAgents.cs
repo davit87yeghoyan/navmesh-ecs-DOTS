@@ -13,7 +13,6 @@ namespace Demo.Behaviour
 
         void Awake()
         {
-            
             using (BlobAssetStore blobAssetStore = new BlobAssetStore()){
                 var    setting            = GameObjectConversionSettings.FromWorld(World.DefaultGameObjectInjectionWorld, blobAssetStore);
                 Entity entityPrefab       = GameObjectConversionUtility.ConvertGameObjectHierarchy(AgentPrefab, setting);
