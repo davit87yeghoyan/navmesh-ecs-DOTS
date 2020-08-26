@@ -1,4 +1,5 @@
-﻿using NavJob.Components;
+﻿using Demo.Systems;
+using NavJob.Components;
 using Unity.Entities;
 using Unity.Transforms;
 using UnityEngine;
@@ -17,7 +18,8 @@ namespace Demo.Behaviour
                 typeof(SyncRotationToNavAgentComponent),
                 typeof(Rotation),
                 typeof(Transform),
-                typeof(NavAgentComponent)
+                typeof(NavAgentComponent),
+                typeof(PipePassedEvent)
             );
             EntityManager.CreateEntity(entityArchetype);
         }

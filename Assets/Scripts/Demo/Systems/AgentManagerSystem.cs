@@ -18,13 +18,12 @@ namespace Demo.Systems
 
         protected override void OnCreate()
         {
-            eventQuery     = new NativeQueue<PipePassedEvent>(Allocator.TempJob);
+            eventQuery     = new NativeQueue<PipePassedEvent>(Allocator.Persistent);
         }
 
         
         protected override void OnDestroy()
         {
-            base.OnDestroy();
             eventQuery.Dispose();
         }
         protected override JobHandle OnUpdate(JobHandle inputDeps)
